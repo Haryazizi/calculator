@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="index.js" ></script>
+</head>
+<body>
+    <!-- Title -->
+    <h1 class="title">Welcome Katik</h1>
+    <p class="paragraf">Hai Sobat, Selamat datang di katik :) </p>
+    <p class="paragraf">Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luar dan keliling bangun datar</p>
+    <!-- Header / Navbar -->
+    <header>
+        <nav>
+            <div class="menu">
+            <a href="#Segitiga" class="menu-sg">Segitiga</a> <br>
+            <a href="#Jajargenjang">Jajargenjang</a>
+            </div>
+        </nav>
+    </header>
+    <!-- Main Page -->
+    <main>
+        <div class="card">
+            <section id="Segitiga">
+                <div>
+                    <h2>Luas Segitiga</h2>
+                </div>
+                <img src="/assets/segitiga.png" alt="segitiga" style="width:200px;height:100px;">
+                <div>
+                    <h6>Rumus Luas Segitiga Yaitu :</h6>
+                    <p class="rumus-sg">L = 1/2 x a x t</p>
+                </div>
+                <div>
+                    <p>Dimana</p>
+                    <p>L = Luas</p>
+                    <p>a = Panjang Atas</p>
+                    <p>t = Tinggi</p>
+                </div>
+                <div class="form-hitung">
+                    <h1>Hitung Luas Segitiga</h1>
+                    <form action="" class="form-sg">
+                        <label for="">Alas Segitiga</label>
+                        <input type="number" id="alas"/>
+                        <label for="">Tinggi Segitiga</label>
+                        <input type="number" id="tinggi"/>
+                        <button type="submit" id="hitung" class="button">Hitung</button>
+                        <p>Luas Segitiga adalah <span id="luas"></span></p>
+                    </form>
+                </div>
+        </div>
+<!-- Keliling Segitiga -->
+        <div class="card">
+            <section id="Segitiga">
+                <div>
+                    <h2>Keliling Segitiga</h2>
+                </div>
+                <img src="/assets/segitiga.png" alt="segitiga" style="width:200px;height:100px;">
+                <div>
+                    <h6>Rumus Keliling Segitiga Yaitu :</h6>
+                    <p class="rumus-sg">K = S1 + S2 + S3</p>
+                </div>
+                <div>
+                    <p>Dimana</p>
+                    <p>K = Keliling</p>
+                    <p>S1 = Sisi A</p>
+                    <p>S2 = Sisi B</p>
+                    <p>S3 = Sisi C</p>
+                </div>
+                <div class="form-hitung">
+                    <h1>Hitung Keliling Segitiga</h1>
+                    <form action="" class="form-sg">
+                        <label for="">Sisi 1</label>
+                        <input type="number" />
+                        <label for="">Sisi 2</label>
+                        <input type="number" />
+                        <label for="">Sisi 3</label>
+                        <input type="number" />
+                        <button type="submit" class="button">Hitung</button>
+                    </form>
+                </div>
+        </div>
+<!-- luas jajargenjang -->
+        </section>
+        <div class="card">
+        <section id="Jajargenjang">
+            <div>
+                <h2>Luas Jajargenjang</h2>
+            </div>
+            <img src="/assets/jajargenjang.png" alt="segitiga" style="width:200px;height:100px;">
+            <div>
+                <h6>Rumus Luas Jajargenjang Yaitu :</h6>
+                <p class="rumus-sg">L = a x t</p>
+            </div>
+            <div>
+                <p>Dimana</p>
+                <p>L = Luas</p>
+                <p>a = Atas</p>
+                <p>t = Tinggi</p>
+            </div>
+            <div class="form-hitung">
+                <h1>Hitung Luas Jajargenjang</h1>
+                <form action="" class="form-sg">
+                    <label for="">Atas Jajargenjang</label>
+                    <input type="number" />
+                    <label for="">Tinggi Jajargenjang</label>
+                    <input type="number" />
+                    <button type="submit" class="button">Hitung</button>
+                </form>
+            </div>
+        </div>
+<!-- keliling jajargenjang -->
+            <div class="card">
+            <div>
+                <h2>Keliling Jajargenjang</h2>
+            </div>
+            <img src="/assets/jajargenjang.png" alt="segitiga" style="width:200px;height:100px;">
+            <div>
+                <h6>Rumus Keliling Jajargenjang Yaitu :</h6>
+                <p class="rumus-sg">K = 2 x (a x b)</p>
+            </div>
+            <div>
+                <p>Dimana</p>
+                <p>K = Keliling</p>
+                <p>2 = kali</p>
+                <p>a = Sisi a</p>
+                <p>b = Sisi b</p>
+            </div>
+            <div class="form-hitung">
+                <h1>Hitung Keliling Jajargenjang</h1>
+                <form action="" class="form-sg">
+                    <input type="number" />
+                    <input type="number" />
+                    <input type="number" />
+                    <button type="submit" class="button">Hitung</button>
+                </form>
+            </div>
+    </div>
+        </section>
+    </main>
+</body>
+</html>
